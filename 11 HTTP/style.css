@@ -1,0 +1,26 @@
+*{
+   box-sizing: border-box;
+}
+
+.body{
+   background-color: #bebebe;
+   
+}
+
+.main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+.window{
+   padding: 200px;
+   background-color: #fff;
+}
+
+.button{
+   padding: 10px 25px;
+margin-top: 20px;
+margin-left: 42%;
+}
