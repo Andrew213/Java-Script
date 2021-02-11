@@ -1,0 +1,43 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-size: 24px;
+   font-weight: 800;
+   margin: 100px 0;
+}
+
+.main{
+   width: 500px;
+   height: 500px;
+   margin: 0 auto;
+}
+
+.main__text{
+   width: 500px;
+   height: 200px;
+   border: 3px solid green;
+   background-color: rgb(238, 232, 232);
+   padding: 10px;
+   border-radius: 25px;
+   outline: none;
+   box-shadow: 10px 20px 30px ;
+}
+
+.main__button-wrapper{
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 30px;
+   
+}
+
+.main__btn{
+   outline: none;
+   border-radius: 25px;
+   padding: 20px;
+   background-color: #bebebe;
+   cursor: pointer;
+}

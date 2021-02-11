@@ -1,0 +1,42 @@
+.football {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.field {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.ball {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+}
+
+.ball--rotateRight{
+	animation: ballRight 0.5s linear infinite;
+}
+
+.ball--rotateLeft{
+	animation: ballLeft 0.5s linear infinite;
+}
+
+@keyframes ballRight {
+	from{
+		transform: rotate(0deg);
+	}
+
+	to{transform: rotate(360deg);}
+}
+
+@keyframes ballLeft {
+	from{
+		transform: rotate(0deg);
+	}
+
+	to{transform: rotate(-360deg);}
+}
